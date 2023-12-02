@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Invoice | Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="#" style="display: flex; align-items: center; margin-bottom: -0.01px">ShipLink</a>
+      </div>
+
+      <div class="header-icons">
+        <div class="notification">
+          <p style="display: flex; align-items: center"><img src="img/image 73.png" alt="" class="text-hps" />Notification <img src="img/chevron-down.png" alt="" /></p>
+        </div>
+        <div class="eng">
+          <p style="display: flex; align-items: center"><img src="img/circle-flags_uk.png" alt="" class="text-hps" />Eng <img src="img/chevron-down.png" alt="" /></p>
+        </div>
+        <div class="img-admin">
+          <img src="img/Rectangle 1835.png" alt="" />
+          <div class="text-admin">
+            <p>Username</p>
+            <p>Admin</p>
+          </div>
+          <img src="img/chevron-down.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <nav>
+        <div class="side_navbar">
+          <a href="index.html" class="active"
+            ><img src="img/image 79.png" alt="" />
+            <p>Arrival Scan</p></a
+          >
+          <a href="verification.html"
+            ><img src="img/image 80.png" alt="" />
+            <p>Verification</p></a
+          >
+          <a href="custom-broker.html"
+            ><img src="img/image 81.png" alt="" />
+            <p>Customs Broker</p></a
+          >
+          <a href="transport.html"
+            ><img src="img/Mask group (2).png" alt="" />
+            <p>Transport Preparation</p></a
+          >
+          <a href="custom-clearance.html"
+            ><img src="img/image 82.png" alt="" />
+            <p>Custom Clearance</p></a
+          >
+          <a href="bin-manager.html"
+            ><img src="img/image 83.png" alt="" />
+            <p>Bin Manager</p></a
+          >
+          <a href="invoice.html"
+            ><img src="img/image 84.png" alt="" />
+            <p>Invoice Manager</p></a
+          >
+          <a href="customer.html"
+            ><img src="img/image 85.png" alt="" />
+            <p>Customer Manager</p></a
+          >
+          <a href="user-permission.html" class="btn-side"
+            ><img src="img/Mask group (1).png" alt="" />
+            <p>User and Permission</p></a
+          >
+        </div>
+      </nav>
+
+      <div class="main-body">
+        <div class="card-body kiri" style="width: 70% !important; height: max-content">
+          <div class="card-full">
+            <div class="konten-card-full">
+              <div class="konten-img">
+                <div class="logo"><img src="img/Mask group.png" alt="" /></div>
+                <div class="p">
+                  <p class="arrival">Invoice # 1231412</p>
+                  <p class="add-new">Amount Due : $0.00 (CAD)</p>
+                  <p class="add-new">Date : 22 Apr, 2023</p>
+                  <p class="add-new">Select Another Date</p>
+                </div>
+                <br />
+              </div>
+            </div>
+
+            <div class="card src">
+              <div class="search">
+                <label for="">Terms</label>
+                <input type="date" placeholder="search" style="width: 100%" />
+              </div>
+              <div class="filter">
+                <label for="">Currency</label><br />
+                <select name="" id="" style="width: 200px; margin-bottom: 1px">
+                  <option value="">Select Currency</option>
+                </select>
+              </div>
+              <div class="search">
+                <label for="">Email</label>
+
+                <input type="email" placeholder="Email" style="width: 100%" />
+              </div>
+            </div>
+            <div class="card src" style="gap: 10px">
+              <div class="search">
+                <label for="">Billed To</label><br />
+                <label for="">Name</label>
+                <input type="text" placeholder="Input Name" style="width: 100%" />
+              </div>
+              <div class="search">
+                <label for="">.</label><br />
+                <label for="">Zip/Postal Code *</label>
+                <input type="text" placeholder="Input Postal Code" style="width: 100%" />
+              </div>
+              <div class="filter">
+                <label for="">Shipped To</label><br />
+                <label for="">Name *</label><br />
+                <input name="" type="text" id="" placeholder="Input Name" style="width: 200px; margin-bottom: 1px" />
+              </div>
+              <div class="search">
+                <label for="">.</label><br />
+
+                <label for="">Zip/Postal Code *</label>
+
+                <input type="email" placeholder="Email" style="width: 100%" />
+              </div>
+            </div>
+            <div class="card src" style="gap: 10px">
+              <div class="search">
+                <label for="">Address</label>
+                <input type="text" placeholder="Input Address" style="width: 100%" />
+              </div>
+              <div class="filter">
+                <label for="">Country</label><br />
+                <select name="" id="" style="width: 200px; margin-bottom: 1px">
+                  <option value="">Canada</option>
+                </select>
+              </div>
+              <div class="search">
+                <label for="">Address</label>
+                <input type="text" placeholder="search" style="width: 100%" />
+              </div>
+              <div class="filter">
+                <label for="">Country</label><br />
+                <select name="" id="" style="width: 200px; margin-bottom: 1px">
+                  <option value="">Canada</option>
+                </select>
+              </div>
+            </div>
+            <div class="card" style="gap: 10px">
+              <label for="">Note</label><br />
+              <input type="text" placeholder="Add Note" />
+            </div>
+            <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
+              <div style="flex-grow: 4; background-color: #00509d; color: #fff; border-radius: 5px; padding: 10px" class="item">item</div>
+              <div style="flex-grow: 1; background-color: #00509d; color: #fff; border-radius: 5px; padding: 10px" class="quantity">quantity</div>
+              <div style="flex-grow: 1; background-color: #00509d; color: #fff; border-radius: 5px; padding: 10px" class="price">price</div>
+              <div style="flex-grow: 1; background-color: #00509d; color: #fff; border-radius: 5px; padding: 10px" class="total">total</div>
+            </div>
+            <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
+              <input placeholder="item" style="flex-grow: 4; color: #fff; border-radius: 5px; padding: 10px" class="item" />
+              <input placeholder="item" style="flex-grow: 1; color: #fff; border-radius: 5px; padding: 10px" class="quantity" />
+              <input placeholder="item" style="flex-grow: 1; color: #fff; border-radius: 5px; padding: 10px" class="price" />
+              <input placeholder="item" style="flex-grow: 1; color: #fff; border-radius: 5px; padding: 10px" class="total" />
+            </div>
+            <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
+              <input placeholder="item" style="flex-grow: 4; color: #fff; border-radius: 5px; padding: 10px; width: 10px" class="item" />
+            </div>
+          </div>
+          <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
+            <input placeholder="item" style="flex-grow: 4; color: #fff; border-radius: 5px; padding: 10px" class="item" />
+            <input placeholder="item" style="flex-grow: 1; color: #fff; border-radius: 5px; padding: 10px" class="quantity" />
+            <input placeholder="item" style="flex-grow: 1; color: #fff; border-radius: 5px; padding: 10px" class="price" />
+            <input placeholder="item" style="flex-grow: 1; color: #fff; border-radius: 5px; padding: 10px" class="total" />
+          </div>
+          <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
+            <input placeholder="item" style="flex-grow: 4; color: #fff; border-radius: 5px; padding: 10px" class="item" />
+          </div>
+        </div>
+
+        <div class="card-body kanan" style="width: 30% !important; height: 68.7%">
+          <div class="atas" style="padding: 10px">
+            <h2 style="color: rgb(76, 114, 227); margin-bottom: 10px">Send Voice To</h2>
+            <h4 style="color: #333333; font-weight: 600; font-size: 16px">Email</h4>
+            <input type="email" style="width: 90%" placeholder="Search User Account" />
+          </div>
+
+          <div class="buttons" style="display: flex; justify-content: center">
+            <button class="preview" style="padding: 10px; border-radius: 5px; color: red; border: 2px solid red; background-color: white; font-weight: 600">Preview</button>
+            <button class="download" style="padding: 10px; border-radius: 5px; color: red; border: 2px solid red; background-color: white; font-weight: 600">Download</button>
+          </div>
+          <div class="btns" style="display: flex; justify-content: center">
+            <button style="background-color: red; font-size: 600; color: white; padding: 10px; border-radius: 5px; width: 60%">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
