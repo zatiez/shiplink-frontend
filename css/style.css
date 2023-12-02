@@ -85,6 +85,14 @@ nav {
   flex-direction: column;
   padding-bottom: 200px;
 }
+
+.active {
+  border-left: 3px solid red; /* Warna garis kiri untuk menu yang aktif */
+}
+
+.side_navbar a:active {
+  border-left: 10px solid black;
+}
 .side_navbar span {
   color: gray;
   margin: 1rem 3rem;
@@ -461,17 +469,39 @@ table {
   align-items: center;
 }
 
-.inputOne {
-}
-
 @media screen and (max-width: 1100px) {
   .main-body {
     display: block;
     width: 100%;
   }
 
+  .card.src {
+    width: 100%;
+    display: block;
+  }
+
+  .filter {
+    width: 10px;
+    display: block;
+  }
+
   .side_navbar a {
     width: 50px;
+  }
+
+  .card-body {
+    border: none;
+  }
+
+  .kiri,
+  .kanan {
+    font-size: 5px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .atas h2 {
+    width: 700px;
   }
 
   .side_navbar p {

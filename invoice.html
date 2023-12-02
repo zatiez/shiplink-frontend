@@ -6,7 +6,6 @@
     <title>Invoice | Admin Dashboard</title>
     <link rel="stylesheet" href="css/style.css" />
     <!-- Font Awesome Cdn Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
   </head>
   <body>
     <header class="header">
@@ -74,7 +73,7 @@
       </nav>
 
       <div class="main-body">
-        <div class="card-body kiri" style="width: 70% !important; height: max-content">
+        <div class="card-body kiri" style="width: 70% !important; height: ">
           <div class="card-full">
             <div class="konten-card-full">
               <div class="konten-img">
@@ -163,23 +162,37 @@
               <div style="flex-grow: 1; background-color: #00509d; color: #fff; border-radius: 5px; padding: 10px" class="total">total</div>
             </div>
             <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
-              <input placeholder="item" style="flex-grow: 4; color: #fff; border-radius: 5px; padding: 10px" class="item" />
-              <input placeholder="item" style="flex-grow: 1; color: #fff; border-radius: 5px; padding: 10px" class="quantity" />
-              <input placeholder="item" style="flex-grow: 1; color: #fff; border-radius: 5px; padding: 10px" class="price" />
-              <input placeholder="item" style="flex-grow: 1; color: #fff; border-radius: 5px; padding: 10px" class="total" />
+              <input type="text" placeholder="item" style="width: 50%" />
+              <input type="text" placeholder="quantity" style="width: 21%" />
+              <input type="text" placeholder="price" style="width: 21%" />
+              <input type="text" placeholder="total" style="width: 21%" />
+              <a href=""> <img style="height: 35px" src="sampah.png" alt="" /></a>
             </div>
             <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
-              <input placeholder="item" style="flex-grow: 4; color: #fff; border-radius: 5px; padding: 10px; width: 10px" class="item" />
+              <input type="text" placeholder="Description" style="width: 43%" />
             </div>
           </div>
           <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
-            <input placeholder="item" style="flex-grow: 4; color: #fff; border-radius: 5px; padding: 10px" class="item" />
-            <input placeholder="item" style="flex-grow: 1; color: #fff; border-radius: 5px; padding: 10px" class="quantity" />
-            <input placeholder="item" style="flex-grow: 1; color: #fff; border-radius: 5px; padding: 10px" class="price" />
-            <input placeholder="item" style="flex-grow: 1; color: #fff; border-radius: 5px; padding: 10px" class="total" />
+            <input type="text" placeholder="item" style="width: 50%" />
+            <input type="text" placeholder="quantity" style="width: 21%" />
+            <input type="text" placeholder="price" style="width: 21%" />
+            <input type="text" placeholder="total" style="width: 21%" />
+            <a href=""> <img style="height: 35px" src="sampah.png" alt="" /></a>
           </div>
           <div class="kotak-last" style="display: flex; gap: 5px; margin-top: 10px">
-            <input placeholder="item" style="flex-grow: 4; color: #fff; border-radius: 5px; padding: 10px" class="item" />
+            <input type="text" placeholder="Description" style="width: 43%" />
+          </div>
+          <a href="#" style="font-size: 12px; font-weight: bold">+ Add new data</a>
+          <div class="subb" style="display: flex; justify-content: flex-end; margin-bottom: 10px; gap: 100px">
+            <div class="subtotal" style="margin-right: 80px">subtotal</div>
+            <div class="dolar">$12.00</div>
+          </div>
+          <div class="sub" style="display: flex; justify-content: flex-end">
+            <div class="btn-2" style="display: flex; justify-content: right; flex-direction: column">
+              <a style="text-transform: capitalize; border: 1px solid red; border-radius: 4px; padding: 5px; color: red; text-align: center; margin-right: 35px; margin-top: 10px" class="add">add-text</a>
+              <a style="text-transform: capitalize; border: 1px solid red; border-radius: 4px; padding: 5px; color: red; text-align: center; margin-right: 35px; margin-top: 10px" class="add">add Discount</a>
+              <p style="margin-top: 20px; margin-right: 70px; color: #00509d; border-top: #82868a9d 1px solid">Amount Due ( $CAD)</p>
+            </div>
           </div>
         </div>
 
@@ -190,12 +203,13 @@
             <input type="email" style="width: 90%" placeholder="Search User Account" />
           </div>
 
-          <div class="buttons" style="display: flex; justify-content: center">
-            <button class="preview" style="padding: 10px; border-radius: 5px; color: red; border: 2px solid red; background-color: white; font-weight: 600">Preview</button>
-            <button class="download" style="padding: 10px; border-radius: 5px; color: red; border: 2px solid red; background-color: white; font-weight: 600">Download</button>
+          <div class="buttons" style="display: flex; justify-content: center; gap: 10px">
+            <a href="#" class="preview" style="padding: 10px; border-radius: 5px; color: red; border: 2px solid red; background-color: white; font-weight: 600">Preview</a>
+            <a href="#" class="download" style="padding: 10px; border-radius: 5px; color: red; border: 2px solid red; background-color: white; font-weight: 600">Download</a>
           </div>
-          <div class="btns" style="display: flex; justify-content: center">
-            <button style="background-color: red; font-size: 600; color: white; padding: 10px; border-radius: 5px; width: 60%">Send</button>
+
+          <div class="btns" style="display: flex; justify-content: center; text-align: center">
+            <a href="#" class="send" style="background-color: red; font-size: 16px; color: white; padding: 7px; border-radius: 5px; width: 65%; margin-top: 10px">Send</a>
           </div>
         </div>
       </div>
