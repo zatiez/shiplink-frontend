@@ -90,9 +90,6 @@ nav {
   border-left: 3px solid red; /* Warna garis kiri untuk menu yang aktif */
 }
 
-.side_navbar a:active {
-  border-left: 10px solid black;
-}
 .side_navbar span {
   color: gray;
   margin: 1rem 3rem;
@@ -472,7 +469,19 @@ table {
 @media screen and (max-width: 1100px) {
   .main-body {
     display: block;
+    height: 100%;
+  }
+
+  .notification,
+  .eng {
+    display: none;
+  }
+  body {
     width: 100%;
+  }
+
+  .atas {
+    justify-content: center !important;
   }
 
   .card.src {
