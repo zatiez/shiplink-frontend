@@ -3,10 +3,8 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="../css/navbar.css" />
-    <!-- Font Awesome Cdn Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <title>Invoice</title>
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header class="header">
@@ -36,7 +34,7 @@
     <div class="container">
       <nav>
         <div class="side_navbar">
-          <a href="index.html"
+          <a href="index.html" style="border-left: 8px solid rgba(0, 0, 0, 0.721); background-color: #bcbcba5a; color: #0101007c; font-weight: bold; border-radius: 5px"
             ><img src="../img/image 79.png" alt="" />
             <p>Arrival Scan</p></a
           >
@@ -56,7 +54,7 @@
             ><img src="../img/Mask group (2).png" alt="" />
             <p>Transport Preparation</p></a
           >
-          <a style="border-left: 8px solid rgba(0, 0, 0, 0.721); background-color: #bcbcba5a; color: #0101007c; font-weight: bold; border-radius: 5px" href="custom-clearance.html"
+          <a href="custom-clearance.html"
             ><img src="../img/image 82.png" alt="" />
             <p>Custom Clearance</p></a
           >
@@ -101,81 +99,82 @@
       </nav>
 
       <div class="main-body">
-        <div class="card-body">
+        <div>
           <div class="card-full">
             <div class="konten-card-full">
               <div class="konten-img">
-                <div class="logo"><img src="../img/Mask group (5).png" alt="" /></div>
+                <div class="logo"><img src="../img/Mask group.png" alt="" /></div>
                 <div class="p">
-                  <p class="arrival">Custom Clearance</p>
-                  <p class="add-new">Custom Status</p>
+                  <p class="arrival" style="margin-top: 10px; margin-left: 5px">Product Manager</p>
                 </div>
                 <br />
               </div>
+
+              <div class="link" style="margin-bottom: 10px">
+                <a href="product-manager.html" class="link-full">Product</a>
+                <a href="services.html" class="link-full">Services</a>
+                <a href="#" class="link-full" style="border-bottom: 3px solid rgba(12, 68, 223, 0.291); border-radius: 5px">Categories</a>
+              </div>
             </div>
+
+            <div class="card">
+              <div class="layout rows2 rows3" style="display: flex; gap: 10px; justify-content: flex-start; align-content: center">
+                <div class="isi-layout" style="margin-top: 10px">
+                  <input style="width: 100%" type="search" class="search" placeholder="search" />
+                </div>
+                <div class="isi-layout" style="margin-top: 10px">
+                  <select name="" style="width: 200px" id="">
+                    <option value="">Show all</option>
+                    <option value="">Product</option>
+                    <option value="">Services</option>
+                  </select>
+                </div>
+                <div class="isi-layout" style="margin-top: 20px">
+                  <a href="" style="padding: 5px 15px; background-color: rgb(213, 7, 7); border-radius: 5px; color: #fff">Print</a>
+                </div>
+              </div>
+            </div>
+
+            <table>
+              <div class="judul-table">
+                <tr class="tbl-judul">
+                  <th class="tbl-kiri">ID</th>
+                  <th>Item #</th>
+                  <th>Description</th>
+                  <th>Price</th>
+                  <th>Category</th>
+                  <th class="tbl-kanan">.</th>
+                </tr>
+              </div>
+
+              <div class="isi-table">
+                <tr>
+                  <td class="tbl-kiri">#872812138328</td>
+                  <td>#SRR-678</td>
+                  <td>Elephant 1802</td>
+                  <td>$ 43.00.</td>
+                  <td>Tapes.</td>
+                  <td class="tbl-kanan" style="color: blue"><a href="">Edit</a></td>
+                </tr>
+                <tr>
+                  <td class="tbl-kiri">#872812138328</td>
+                  <td>#SRR-678</td>
+                  <td>Elephant 1802</td>
+                  <td>$ 43.00.</td>
+                  <td>Tapes.</td>
+                  <td class="tbl-kanan" style="color: blue"><a href="">Edit</a></td>
+                </tr>
+                <tr>
+                  <td class="tbl-kiri">#872812138328</td>
+                  <td>#SRR-678</td>
+                  <td>Elephant 1802</td>
+                  <td>$ 43.00.</td>
+                  <td>Tapes.</td>
+                  <td class="tbl-kanan" style="color: blue"><a href="">Edit</a></td>
+                </tr>
+              </div>
+            </table>
           </div>
-          <div class="card">
-            <div class="layout rows2 rows3" style="display: flex; gap: 10px; justify-content: flex-start">
-              <div class="isi-layout">
-                <input type="search" class="search" placeholder="search" />
-              </div>
-              <div class="isi-layout">
-                <input type="text" disabled style="width: 150px" placeholder="Status V" />
-              </div>
-
-              <div class="isi-layout">
-                <img src="../img/Vector.png" class="filter" alt="" />
-              </div>
-            </div>
-          </div>
-          <table>
-            <div class="judul-table">
-              <tr class="tbl-judul">
-                <th class="tbl-kiri">Lots ID</th>
-                <th>Lots Labels</th>
-                <th>Manifest Number</th>
-                <th>Destination</th>
-                <th>Current Status</th>
-                <th class="tbl-kanan">.</th>
-              </tr>
-            </div>
-
-            <div class="isi-table">
-              <tr>
-                <td class="tbl-kiri">#872812138328</td>
-                <td>John Doe</td>
-                <td>Atlanta, USA</td>
-                <td>Atlanta, USA</td>
-                <th>Destination</th>
-
-                <th class="tbl-kanan br">
-                  <p style="padding: 5px; border: 1px solid rgba(143, 139, 139, 0.861); border-radius: 20px"><a href="#">Update</a></p>
-                </th>
-              </tr>
-              <tr>
-                <td class="tbl-kiri">#872812138328</td>
-                <td>John Doe</td>
-                <td>Atlanta, USA</td>
-                <td>Atlanta, USA</td>
-                <th>Destination</th>
-
-                <th class="tbl-kanan br">
-                  <p style="padding: 5px; border: 1px solid rgba(143, 139, 139, 0.861); border-radius: 20px"><a href="#">Update</a></p>
-                </th>
-              </tr>
-              <tr>
-                <td class="tbl-kiri">#872812138328</td>
-                <td>John Doe</td>
-                <td>Atlanta, USA</td>
-                <td>Atlanta, USA</td>
-                <th>Destination</th>
-
-                <th class="tbl-kanan br">
-                  <p style="padding: 5px; border: 1px solid rgba(143, 139, 139, 0.861); border-radius: 20px"><a href="#">Update</a></p>
-                </th>
-              </tr>
-            </div>
-          </table>
         </div>
       </div>
     </div>
