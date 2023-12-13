@@ -83,6 +83,7 @@ nav {
   margin: 1rem 3rem;
   font-size: 12px;
 }
+
 .side_navbar a {
   width: 100%;
   padding: 0.8rem 3rem;
@@ -95,6 +96,22 @@ nav {
   gap: 3px;
 }
 
+.list-ul {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #b0aeae88;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.list-menu {
+  gap: 20px;
+  list-style: none;
+  display: flex;
+  align-content: center;
+}
+
 .side_navbar a:hover {
   background: #cc0019;
   color: white;
@@ -102,18 +119,6 @@ nav {
 }
 .side_navbar .active {
   border-left: 2px solid rgb(100, 100, 100);
-}
-
-.btn-side {
-  background-color: #cc0019;
-  color: white !important;
-  border-radius: 5px;
-  font-weight: 400;
-  margin-top: 10px;
-}
-
-.btn-side:hover {
-  background-color: #cc0018e8 !important;
 }
 
 .side_navbar img {

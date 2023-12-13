@@ -142,7 +142,7 @@
             ><img src="../img/icon-asisten-purchese.png" alt="" />
             <p>Assisted Purchase</p></a
           >
-          <a style="border-left: 8px solid rgba(0, 0, 0, 0.721); background-color: #bcbcba5a; color: #0101007c; font-weight: bold; border-radius: 5px" href="support-ticket.html"
+          <a
             ><img src="../img/icon-support-ticket.png" alt="" />
             <p>Support Tickets</p></a
           >
@@ -163,7 +163,7 @@
             ><img src="../img/icon-user-and-permission.png" alt="" />
             <p>User and Permission</p></a
           >
-          <a href="configuration.html" class="btn-side"
+          <a style="border-left: 8px solid rgba(0, 0, 0, 0.721); background-color: #bcbcba5a; color: #0101007c; font-weight: bold; border-radius: 5px" href="configuration.html" class="btn-side"
             ><img src="../img/i-config.png" alt="" />
             <p>Configuration</p></a
           >
@@ -175,16 +175,16 @@
           <div class="card-full">
             <div class="konten-card-full">
               <div class="konten-img">
-                <div class="logo"><img src="../img/g-support-tiket.png" style="margin-right: 10px" alt="" /></div>
+                <div class="logo"><img src="../img/g-carier-config.png" style="margin-right: 10px" alt="" /></div>
                 <div class="p">
-                  <p class="arrival">Support Tickets</p>
-                  <p class="add-new">Showing Listing TIckets</p>
+                  <p class="arrival">Carrier Configuration</p>
+                  <p class="add-new">Showing All Carriers</p>
                 </div>
                 <br />
               </div>
 
-              <a href="#" class="link-full" style="border-bottom: 3px solid rgba(12, 68, 223, 0.291); border-radius: 5px">Active</a>
-              <a href="closed.html" class="link-full">Closed</a>
+              <a href="#" class="link-full" style="border-bottom: 3px solid rgba(12, 68, 223, 0.291); border-radius: 5px">Carrier</a>
+              <a href="#" class="link-full">Tax</a>
             </div>
           </div>
           <div class="card">
@@ -196,156 +196,90 @@
                 <img src="../img/Vector.png" class="filter" alt="" />
               </div>
               <div class="isi-layout">
-                <input type="date" class="date" placeholder="date" />
-                <button class="btn-side openModal" id="openModal" style="padding: 8px 20px; cursor: pointer; background-color: rgb(225, 43, 43); color: #fff; border-radius: 5px">New Tickets</button>
+                <button class="btn-side openModal" id="openModal" style="padding: 8px 20px; cursor: pointer; background-color: rgb(225, 43, 43); color: #fff; border-radius: 5px">Connect New Carrier</button>
               </div>
 
               <div class="custom-modal" id="customModal">
                 <div class="modal-content">
                   <span class="close" id="closeModal">&times;</span>
                   <div class="main-body" style="margin-left: 25px !important; border: none !important; box-shadow: none !important">
-                    <h2 style="color: #00509d; font-weight: bold; font-size: 24px">Create New Tickets</h2>
+                    <h2 style="color: #00509d; font-weight: bold; font-size: 24px">Connect To Carrier</h2>
                   </div>
                   <br />
                   <div style="border-bottom: 1px solid #c3bfbf86"></div>
                   <br />
-                  <div class="modal-body" style="margin-left: 50px !important">
-                    <label for="">Customer ID</label>
-                    <input placeholder="#123131" style="background-color: #e7e8ec" type="text" /><br />
-                    <label for="">Customer Emails</label>
-                    <input placeholder="Customer Emails" style="background-color: #e7e8ec" type="text" /><br />
-                    <label for="">Subject</label>
-                    <input placeholder="Hello World" style="background-color: #e7e8ec" type="text" /><br />
-                    <label for="">Message</label><br />
-                    <textarea name="" style="background-color: #e7e8ec; border-radius: 5px; width: 90%; padding: 10px" placeholder="Message" id="" cols="30" rows="10"></textarea><br />
-                    <div class="file-input-container">
-                      <input type="file" class="file-input" id="attachment" />
-                      <label for="attachment" class="file-input-button">Attach File</label>
-                    </div>
+                  <div class="modal-body" style="margin-left: 50px !important; display: flex; gap: 10px">
+                    <input placeholder="Search Carriers" style="background-color: #e7e8ec" type="search" /><br />
+                    <input placeholder="Filter By Country" style="background-color: #e7e8ec" type="text" /><br />
                   </div>
-                  <div class="modal-footer" style="margin-left: 50px !important; margin-top: 20px">
-                    <a href=""><button type="button" class="btn-side" id="closeModalBtn" style="background-color: rgb(210, 12, 12); color: white; padding: 10px; border-radius: 5px">Close</button></a>
-                    <a href=""> <button type="button" class="btn-side" id="saveChangesBtn" style="background-color: rgb(210, 12, 12); color: white; padding: 10px; border-radius: 5px">Save changes</button></a>
+                  <h2 style="color: #414141; font-weight: bold; font-size: 24px; text-align: center; margin: 20px">Featured</h2>
+                  <div class="modal-body" style="display: flex; justify-content: center; gap: 30px">
+                    <a href=""> <img src="../img/gc-1.png" alt="" /></a>
+                    <a href=""> <img src="../img/gc-2.png" alt="" /></a>
+                    <a href=""> <img src="../img/gc-3.png" alt="" /></a>
+                    <a href=""> <img src="../img/gc-4.png" alt="" /></a>
+                    <a href=""> <img src="../img/gc-5.png" alt="" /></a>
+                  </div>
+                  <h2 style="color: #414141; font-weight: bold; font-size: 24px; text-align: center; margin: 20px">Next Day</h2>
+                  <div class="modal-body" style="display: flex; justify-content: center; gap: 30px">
+                    <a href=""> <img src="../img/gc-1.png" alt="" /></a>
+                    <a href=""> <img src="../img/gc-2.png" alt="" /></a>
+                    <a href=""> <img src="../img/gc-3.png" alt="" /></a>
+                    <a href=""> <img src="../img/gc-4.png" alt="" /></a>
+                    <a href=""> <img src="../img/gc-5.png" alt="" /></a>
+                  </div>
+                  <div class="modal-footer" style="margin-left: 50px !important">
+                    <a href=""><button type="button" class="btn-side" id="closeModalBtn" style="margin-top: 40px; padding: 10px 20px; background-color: rgb(218, 11, 11); color: #fff; border-radius: 5px">Close</button></a>
+                    <a href=""> <button type="button" class="btn-side" id="saveChangesBtn" style="padding: 10px 20px; background-color: rgb(218, 11, 11); color: #fff; border-radius: 5px">Save changes</button></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <table>
-            <div class="judul-table">
-              <tr class="tbl-judul">
-                <th class="tbl-kiri"><input style="width: 20px" type="checkbox" /></th>
-                <th style="color: #00509d; font-weight: bold !important">Tickets ID</th>
-                <th style="color: #00509d; font-weight: bold !important">Open Date</th>
-                <th style="color: #00509d; font-weight: bold !important">Subject</th>
-                <th style="color: #00509d; font-weight: bold !important">Customer</th>
-                <th style="color: #00509d; font-weight: bold !important">Reply By</th>
-                <th style="color: #00509d; font-weight: bold !important">Status</th>
-                <th class="tbl-kanan">
-                  <a href=""><button style="padding: 7px 15px; background-color: #00509d; color: #fff; border-radius: 4px; cursor: pointer">Update</button></a>
-                </th>
-              </tr>
-            </div>
-
-            <div class="isi-table">
-              <tr>
-                <td class="tbl-kiri"><input style="width: 20px" type="checkbox" /></td>
-
-                <td>#123456789</td>
-                <td>27/3/2023. 22:2</td>
-                <td>Membership Premium</td>
-                <td>John Doe</td>
-                <td>AdminCs</td>
-                <td>active</td>
-
-                <td class="tbl-kanan">
-                  <a href=""><button style="padding: 7px 15px; background-color: #00509d; color: #fff; border-radius: 4px; cursor: pointer">Open</button></a>
-                </td>
-              </tr>
-              <tr>
-                <td class="tbl-kiri"><input style="width: 20px" type="checkbox" /></td>
-
-                <td>#123456789</td>
-                <td>27/3/2023. 22:2</td>
-                <td>Membership Premium</td>
-                <td>John Doe</td>
-                <td>AdminCs</td>
-                <td>active</td>
-
-                <td class="tbl-kanan">
-                  <a href=""><button style="padding: 7px 15px; background-color: #00509d; color: #fff; border-radius: 4px; cursor: pointer">Open</button></a>
-                </td>
-              </tr>
-              <tr>
-                <td class="tbl-kiri"><input style="width: 20px" type="checkbox" /></td>
-
-                <td>#123456789</td>
-                <td>27/3/2023. 22:2</td>
-                <td>Membership Premium</td>
-                <td>John Doe</td>
-                <td>AdminCs</td>
-                <td>active</td>
-
-                <td class="tbl-kanan">
-                  <a href=""><button style="padding: 7px 15px; background-color: #00509d; color: #fff; border-radius: 4px; cursor: pointer">Open</button></a>
-                </td>
-              </tr>
-              <tr>
-                <td class="tbl-kiri"><input style="width: 20px" type="checkbox" /></td>
-
-                <td>#123456789</td>
-                <td>27/3/2023. 22:2</td>
-                <td>Membership Premium</td>
-                <td>John Doe</td>
-                <td>AdminCs</td>
-                <td>active</td>
-
-                <td class="tbl-kanan">
-                  <a href=""><button style="padding: 7px 15px; background-color: #00509d; color: #fff; border-radius: 4px; cursor: pointer">Open</button></a>
-                </td>
-              </tr>
-              <tr>
-                <td class="tbl-kiri"><input style="width: 20px" type="checkbox" /></td>
-                <td>#123456789</td>
-                <td>27/3/2023. 22:2</td>
-                <td>Membership Premium</td>
-                <td>John Doe</td>
-                <td>AdminCs</td>
-                <td>active</td>
-
-                <td class="tbl-kanan">
-                  <a href=""><button style="padding: 7px 15px; background-color: #00509d; color: #fff; border-radius: 4px; cursor: pointer">Open</button></a>
-                </td>
-              </tr>
-              <tr>
-                <td class="tbl-kiri"><input style="width: 20px" type="checkbox" /></td>
-
-                <td>#123456789</td>
-                <td>27/3/2023. 22:2</td>
-                <td>Membership Premium</td>
-                <td>John Doe</td>
-                <td>AdminCs</td>
-                <td>active</td>
-
-                <td class="tbl-kanan">
-                  <a href=""><button style="padding: 7px 15px; background-color: #00509d; color: #fff; border-radius: 4px; cursor: pointer">Open</button></a>
-                </td>
-              </tr>
-              <tr>
-                <td class="tbl-kiri"><input style="width: 20px" type="checkbox" /></td>
-                <td>#123456789</td>
-                <td>27/3/2023. 22:2</td>
-                <td>Membership Premium</td>
-                <td>John Doe</td>
-                <td>AdminCs</td>
-                <td>active</td>
-
-                <td class="tbl-kanan">
-                  <a href=""><button style="padding: 7px 15px; background-color: #00509d; color: #fff; border-radius: 4px; cursor: pointer">Open</button></a>
-                </td>
-              </tr>
-            </div>
-          </table>
+          <div class="list">
+            <ul class="list-ul">
+              <li class="list-menu" style="width: 20%"><img src="../img/gc-1.png" alt="" /></li>
+              <li class="list-menu gap">FedEx</li>
+              <li class="list-menu gap">U.S Domestic</li>
+              <li class="list-menu gap"><input type="checkbox" name="" style="width: 15px" id="" /></li>
+              <li class="list-menu gap" style="color: #00509d">Edit</li>
+            </ul>
+            <ul class="list-ul">
+              <li class="list-menu" style="width: 20%"><img src="../img/gc-2.png" alt="" /></li>
+              <li class="list-menu gap">FedEx</li>
+              <li class="list-menu gap">U.S Domestic</li>
+              <li class="list-menu gap"><input type="checkbox" name="" style="width: 15px" id="" /></li>
+              <li class="list-menu gap" style="color: #00509d">Edit</li>
+            </ul>
+            <ul class="list-ul">
+              <li class="list-menu" style="width: 20%"><img src="../img/gc-3.png" alt="" /></li>
+              <li class="list-menu gap">FedEx</li>
+              <li class="list-menu gap">U.S Domestic</li>
+              <li class="list-menu gap"><input type="checkbox" name="" style="width: 15px" id="" /></li>
+              <li class="list-menu gap" style="color: #00509d">Edit</li>
+            </ul>
+            <ul class="list-ul">
+              <li class="list-menu" style="width: 20%"><img src="../img/gc-4.png" alt="" /></li>
+              <li class="list-menu gap">FedEx</li>
+              <li class="list-menu gap">U.S Domestic</li>
+              <li class="list-menu gap"><input type="checkbox" name="" style="width: 15px" id="" /></li>
+              <li class="list-menu gap" style="color: #00509d">Edit</li>
+            </ul>
+            <ul class="list-ul">
+              <li class="list-menu" style="width: 20%"><img src="../img/gc-5.png" alt="" /></li>
+              <li class="list-menu gap">FedEx</li>
+              <li class="list-menu gap">U.S Domestic</li>
+              <li class="list-menu gap"><input type="checkbox" name="" style="width: 15px" id="" /></li>
+              <li class="list-menu gap" style="color: #00509d">Edit</li>
+            </ul>
+            <ul class="list-ul">
+              <li class="list-menu" style="width: 20%"><img src="../img/gc-6.png" alt="" /></li>
+              <li class="list-menu gap">FedEx</li>
+              <li class="list-menu gap">U.S Domestic</li>
+              <li class="list-menu gap"><input type="checkbox" name="" style="width: 15px" id="" /></li>
+              <li class="list-menu gap" style="color: #00509d">Edit</li>
+            </ul>
+          </div>
           <div class="card"></div>
         </div>
       </div>
