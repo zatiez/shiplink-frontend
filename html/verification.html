@@ -5,6 +5,13 @@
     <meta charset="UTF-8" />
     <title>verification</title>
     <link rel="stylesheet" href="../css/verification.css" />
+    <style>
+      .hidden {
+        display: none;
+        opacity: 0; /* Set opacity to 0 for a fade-in effect */
+        transition: opacity 0.3s ease; /* Adjust the duration and timing function as needed */
+      }
+    </style>
   </head>
   <body>
     <header class="header">
@@ -131,9 +138,11 @@
             <div class="judul-table">
               <tr class="tbl-judul">
                 <th class="tbl-kiri">Tracking ID</th>
-                <th>HS Code</th>
-                <th>Description</th>
-                <th class="tbl-kanan">Verification</th>
+                <th>Customer Name</th>
+                <th>Origin</th>
+                <th>Destination</th>
+                <th>Last Update</th>
+                <th class="tbl-kanan">Customs Status</th>
               </tr>
             </div>
 
@@ -141,25 +150,223 @@
               <tr>
                 <td class="tbl-kiri">#872812138328</td>
                 <td>12345678910</td>
+                <td>12345678910</td>
+                <td>12345678910</td>
                 <td>Tshirt, Long Shirt.</td>
-                <td class="tbl-kanan">v</td>
+                <td class="tbl-kanan">
+                  <button style="cursor: pointer" class="toggle-btn"><img src="../img/vvv2.png" alt="" /></button>
+                </td>
               </tr>
+              <!-- Hapus div.hidden, dan tambahkan class "hidden" langsung ke elemen tr -->
+              <tr class="hidden">
+                <td>.</td>
+                <td><img width="200px" src="../img/kardus.png" alt="" /></td>
+                <td><img width="200px" src="../img/kardus.png" alt="" /></td>
+                <td><img width="200px" src="../img/kardus.png" alt="" /></td>
+                <td>.</td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Qty</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Value</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">User Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">HS Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Hs code</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Made In</p>
+                  <p>1</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Qty</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Value</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">User Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">HS Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Hs code</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Made In</p>
+                  <p>CAN</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Package Dimension</p>
+                  <p>12 mm x 10 mm x 10 mm | 10 Ibs</p>
+                </td>
+                <td>
+                  <p>.</p>
+                  <a href="" style="padding: 5px; background-color: rgb(71, 71, 216); border-radius: 5px; color: #fff">Invoice</a>
+                  <select style="border: 1px solid #999; padding: 5px; border-radius: 5px; margin-top: 10px" name="" id="">
+                    <option value="">Invoice</option>
+                    <option value="">Donwload Invoice 1</option>
+                    <option value="">Donwload Invoice 2</option>
+                  </select>
+                  <p>.</p>
+                </td>
+                <td>
+                  <a href="#"></a>
+                </td>
+                <td>
+                  <a href="" style="padding: 5px; background-color: rgb(71, 71, 216); border-radius: 5px; color: #fff">Edit</a>
+                  <a href="" style="padding: 5px; background-color: rgb(71, 71, 216); border-radius: 5px; color: #fff">Mark Verified</a>
+                </td>
+              </tr>
+
               <tr>
                 <td class="tbl-kiri">#872812138328</td>
                 <td>12345678910</td>
-                <td>Tshirt, Long Shirt.</td>
-                <td class="tbl-kanan">v</td>
-              </tr>
-              <tr>
-                <td class="tbl-kiri">#872812138328</td>
+                <td>12345678910</td>
                 <td>12345678910</td>
                 <td>Tshirt, Long Shirt.</td>
-                <td class="tbl-kanan">v</td>
+                <td class="tbl-kanan">
+                  <button style="cursor: pointer" class="toggle-btn"><img src="../img/vvv2.png" alt="" /></button>
+                </td>
+              </tr>
+              <!-- Hapus div.hidden, dan tambahkan class "hidden" langsung ke elemen tr -->
+              <tr class="hidden">
+                <td>.</td>
+                <td><img width="200px" src="../img/kardus.png" alt="" /></td>
+                <td><img width="200px" src="../img/kardus.png" alt="" /></td>
+                <td><img width="200px" src="../img/kardus.png" alt="" /></td>
+                <td>.</td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Qty</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Value</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">User Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">HS Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Hs code</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Made In</p>
+                  <p>1</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Qty</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Value</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">User Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">HS Description</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Hs code</p>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Made In</p>
+                  <p>CAN</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="display: block; color: rgb(56, 56, 236)">Package Dimension</p>
+                  <p>12 mm x 10 mm x 10 mm | 10 Ibs</p>
+                </td>
+                <td>
+                  <p>.</p>
+                  <a href="" style="padding: 5px; background-color: rgb(71, 71, 216); border-radius: 5px; color: #fff">Invoice</a>
+                  <select style="border: 1px solid #999; padding: 5px; border-radius: 5px; margin-top: 10px" name="" id="">
+                    <option value="">Invoice</option>
+                    <option value="">Donwload Invoice 1</option>
+                    <option value="">Donwload Invoice 2</option>
+                  </select>
+                  <p>.</p>
+                </td>
+                <td>
+                  <a href="#"></a>
+                </td>
+                <td>
+                  <a href="" style="padding: 5px; background-color: rgb(71, 71, 216); border-radius: 5px; color: #fff">Edit</a>
+                  <a href="" style="padding: 5px; background-color: rgb(71, 71, 216); border-radius: 5px; color: #fff">Mark Verified</a>
+                </td>
               </tr>
             </div>
           </table>
         </div>
       </div>
     </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // Temukan semua tombol toggle dan elemen yang akan ditampilkan/sembunyikan
+        var toggleBtns = document.querySelectorAll('.toggle-btn');
+
+        toggleBtns.forEach(function (toggleBtn) {
+          toggleBtn.addEventListener('click', function () {
+            // Temukan elemen terkait dengan tombol yang diklik
+            var additionalData = this.closest('tr').nextElementSibling;
+
+            // Periksa apakah elemen sedang ditampilkan atau tidak
+            if (additionalData.style.display === 'none' || additionalData.style.display === '') {
+              // Jika tidak ditampilkan, tampilkan dengan efek transisi
+              additionalData.style.display = 'table-row'; // Menggunakan 'table-row' untuk elemen tr
+              setTimeout(function () {
+                additionalData.style.opacity = '1';
+              }, 10); // Timeout diperlukan untuk memastikan transisi dimulai setelah tampilan diubah
+            } else {
+              // Jika ditampilkan, sembunyikan dengan efek transisi
+              additionalData.style.opacity = '0';
+              setTimeout(function () {
+                additionalData.style.display = 'none';
+              }, 300); // Timeout set ke durasi transisi untuk memastikan transisi selesai sebelum elemen disembunyikan
+            }
+          });
+        });
+      });
+    </script>
   </body>
 </html>
